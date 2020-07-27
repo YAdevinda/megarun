@@ -60,6 +60,7 @@ def main():
     url = url1
     
     ss = 0
+    mm = 0
     while s > ss:
         os.system("clear")
         print(name)
@@ -71,6 +72,7 @@ def main():
             print("\n\033[1;32;40m [+] Data Nathoo ... [+]")
             print(bar)  
         elif resp == '<Response [200]>':
+            mm = mm + 1
             print(bar)
             print("\n\033[1;32;40m [+] Data Awa..!!!! Balance Eka Balanna ... [+]")
             print(bar)
@@ -81,7 +83,7 @@ def main():
         
 
         ss+=1
-        print("\033[1;0;40m\n",str(ss), "Eelaga request Ekata Poddak inna.. Naththam Wade Mattu :-)",end="")
+        print("\033[1;0;40m\n",str(ss)," kin ",str(mm), "Goda....  Eelaga request Ekata Poddak inna...",end="")
         for i in range(180):
             
             pr = i/180*100
