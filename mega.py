@@ -88,7 +88,7 @@ def main():
             print(bar)
         else:
             print(bar)
-            print("\n\033[1;31;40m [+] Poddak Check karala balanna Block Unada Manda... [+]")
+            print("\n\033[1;31;40m [+] block kiyanna ba.. [+]")
             print(bar)
         
 
